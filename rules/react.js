@@ -5,10 +5,7 @@ module.exports = {
   rules: {
     'react/display-name': 0,                               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     'react/no-danger': 1,                                  // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
-    'react/no-did-mount-set-state': [                      // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
-      1,
-      'allow-in-func'
-    ],
+    'react/no-did-mount-set-state': 1,                      // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
     'react/no-did-update-set-state': 2,                    // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md
     'react/no-direct-mutation-state': 2,                   // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
     'react/no-multi-comp': [                               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
